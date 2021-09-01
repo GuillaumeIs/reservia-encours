@@ -1,0 +1,387 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Regular.ttf') format('truetype');
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+main {
+	margin: auto;
+	width: 79%;
+}
+
+.colorbleu {
+  color: #0065fc;
+}
+
+.colorgris {
+  color: #f2f2f2;
+}
+
+#conteneur {
+	background-color: #F2F2F2;
+	border-radius: 20px 20px 20px 20px;
+	margin-right: 15px;
+}
+
+#conteneur:nth-child(1)
+{
+    flex: 2.5;
+}
+
+.h2-marseille {
+	width: 400px;
+	padding: 35px 0px 5px 34px;
+}
+
+.h2-populaire {
+	margin: 15px 0px 7px 0px;
+	padding: 25px 0px 0px 32px;
+}
+
+.h2-afficher{
+	margin: 17px 35px 25px 0px;
+	padding: 0px 0px 20px 38px;
+}
+
+.conteneur-1 {
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.bloc-1 {
+	background: white;
+	width: 29%;
+	margin: 14px;
+	border-radius: 15px;
+	box-shadow: 0 5px 15px #0000002e;
+}
+
+.bloc-image-1 {
+	height: 140px;
+	margin: 5px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+}
+
+.bloc-image-2 {
+	width: 44%;
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 0px 0 15px;
+}
+
+.hotel-1 {
+	background-image: url(./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+
+.hotel-2 {
+	background-image: url(./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+
+.hotel-3 {
+	background-image: url(./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+
+.hotel-4 {
+	background-image: url(./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+}
+
+.hotel-5 {
+	background-image: url(./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+
+.hotel-6 {
+	background-image: url(./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+
+.hotel-1-1 {
+	background-image: url(./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+
+.hotel-1-2 {
+	background-image: url(./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+
+.hotel-1-3 {
+	background-image: url(./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
+
+.bloc-1 h3 {
+	margin: 10px;
+}
+
+.bloc-1 p {
+	margin: 10px;
+}
+
+.bloc-1 ol {
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #17202A;
+}
+
+a:link 
+{ 
+	text-decoration:none;
+	color: black;
+}
+
+.bloc-1:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+
+#conteneur-2 {
+	background-color: #F2F2F2;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 20px;
+}
+
+#conteneur-2:nth-child(2)
+{
+    flex: 1;
+}
+
+.h2 {
+	padding: 18 0 0 15;
+	font-weight: bold;
+}
+
+.bloc-2 {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+
+.element-2 {
+	width: 85%;
+	font-size: 14px;
+	background: white;
+	border-radius: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 17px;
+	box-shadow: 0 5px 15px #0000002e;
+}
+
+.element-2:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+
+.container-3 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.h2-activites {
+	padding: 20px 20px 20px 0px;
+}
+
+.container-3-1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container-3-1 h3 {
+	padding: 18px;
+}
+
+.bloc3-1-1 {
+	background: white;
+	border-radius: 15px;
+	margin-right: 35px;
+	height: 464px;
+	box-shadow: 0 0 25px #0000002e;
+}
+
+.bloc3-1-2 {
+	background: white;
+	border-radius: 15px;
+	margin-right: 35px;
+	margin-bottom: 35px;
+	height: 230px;
+	box-shadow: 0 0 25px #0000002e;
+}
+
+.bloc3-1-3 {
+	background: white;
+	border-radius: 15px;
+	margin-right: 35px;
+	height: 200px;
+	box-shadow: 0 0 25px #0000002e;
+}
+
+
+.bloc3-1-4 {
+	background: white;
+	border-radius: 15px;
+	margin-right: 35px;
+	height: 465px;
+	box-shadow: 0 0 25px #0000002e;
+}
+
+
+.bloc3-1-5 {
+	background: white;
+	border-radius: 15px;
+	margin-bottom: 35px;
+	height: 225px;
+	box-shadow: 0 0 25px #0000002e;
+}
+
+
+.bloc3-1-6 {
+	background: white;
+	border-radius: 15px;
+	height: 205px;
+	box-shadow: 0 0 25px #0000002e;
+}
+
+.bloc3-1-1:hover, .bloc3-1-2:hover, .bloc3-1-3:hover, .bloc3-1-4:hover, .bloc3-1-5:hover, .bloc3-1-6:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+
+.bloc3-image-1 {
+	height: 405px;
+}
+
+.bloc3-image-2 {
+	height: 170px;
+}
+
+.bloc3-image-3 {
+	height: 140px;
+}
+
+.bloc3-image-4 {
+	height: 405px;
+}
+
+.bloc3-image-5 {
+	height: 165px;
+}
+
+.bloc3-image-6 {
+	height: 145px;
+}
+
+.bloc3-3-1 {
+	background-image: url(./images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+}
+
+.bloc3-3-2 {
+	background-image: url(./images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+}
+
+.bloc3-3-3 {
+	background-image: url(./images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+}
+
+.bloc3-3-4 {
+	background-image: url(./images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+}
+
+.bloc3-3-5 {
+	background-image: url(./images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+}
+
+.bloc3-3-6 {
+	background-image: url(./images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+}
+
+.bloc3:hover {
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 1s ease;
+}
+
+.bloc3-2 {
+	width: 25%;
+}
+
+#flex-conteneur {
+	display:flex;
+}
+
+.flex-element {
+	display: flex;
+}
+
+.element-2-2 {
+	width: 205px;
+}
+
+.element-2-2 h3 {
+	margin: 15px 10px 15px 15px;
+}
+
+.element-2-2 p {
+	margin: 15px 10px 15px 15px;
+}
+
+.element-2-2 ol {
+	margin: 42px 10px 11px 15px;
+}
+
+.h2-activites {
+	
+}
+
+footer {
+	background-color: #f2f2f2;
+}
+
+footer h3 {
+	padding: 8px;
+}
+
+footer p {
+	padding: 8px;
+}
+
+.flex-footer {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-1, .footer-2, .footer-3 {
+	padding: 2% 4.7% 2% 10.3%;
+}
+
+@media screen and (max-width: 1190px) {
+
+}
