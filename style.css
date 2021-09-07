@@ -39,9 +39,16 @@ header, main {
 	padding: 35px 0px 5px 34px;
 }
 
+
 .h2-populaire {
-	margin: 15px 0px 7px 0px;
-	padding: 25px 0px 0px 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 35px 30px 12px 30px;
+}
+
+.h2-populaire h2 {
+
 }
 
 .h2-afficher{
@@ -384,7 +391,6 @@ footer p {
 
 .bloc-screen-1 {
 	display: flex;
-	border: solid;
 }
 
 /* WILDCARD */
