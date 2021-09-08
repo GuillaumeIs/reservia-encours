@@ -1,7 +1,7 @@
 /* FONT SIZE */
 
 @font-face {
-    font-family: 'Raleway';
+	font-family: 'Raleway';
 	src: url('Raleway-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
@@ -51,18 +51,18 @@ a:link
 /* NAVIGATION - RECHERCHE - MENU */
 
 #logo {
-    margin-right: auto;
+	margin-right: auto;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-wrap: wrap;
 }
 
 nav a {
-    padding: 2rem;
+	padding: 2rem;
 	border-top: 2px solid transparent;
 }
 
@@ -71,12 +71,12 @@ nav a:hover {
 }
 
 .inscription {
-    font-weight: bold;
-    color: #0065fc;
+	font-weight: bold;
+	color: #0065fc;
 }
 
 .navigation {
-    display: flex;
+	display: flex;
 }
 
 .navigation a:hover {
@@ -201,7 +201,7 @@ nav a:hover {
 
 #conteneur:nth-child(1)
 {
-    flex: 2.5;
+	flex: 2.5;
 }
 
 .h2-marseille {
@@ -315,7 +315,7 @@ nav a:hover {
 
 #conteneur-2:nth-child(2)
 {
-    flex: 1;
+	flex: 1;
 }
 
 .bloc-2 {
@@ -616,22 +616,22 @@ footer p {
 		flex-basis: 125px;
 	}
 
-    .navigation {
-        order: 1;
-        flex-basis: 100%;
-    }
+	.navigation {
+		order: 1;
+		flex-basis: 100%;
+	}
 
-    .navigation a {
-        flex-basis: 33.33%;
+	.navigation a {
+		flex-basis: 33.33%;
 		text-align: center;
 		border-bottom: 2px solid #d3d3d3;
 		border-top: 2px solid #d3d3d3;
-    }
+	}
 	
 	.navigation a:hover {
 		border-bottom-color: #0065fc;
 		border-top-color: #0065fc;
-    }
+	}
 	
 	.recherche input {
 		flex-basis: 100%;
