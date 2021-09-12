@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!-- paramètre de page -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,12 @@
     <title>Reservia</title>
 	<script src="https://kit.fontawesome.com/3f70f63bc6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="icon" type="image/png" href="./images/favicon/favicon.png">
 </head>
 <body>
+<!-- entête de page -->
 <header>
+		<!-- navigation -->
         <nav>
             <img id="logo" src="./images/logo/Reservia.svg" alt="reservia logo">
             <div class="navigation">
@@ -19,18 +22,20 @@
 				<a class="inscription" href="#" >S'inscrire</a>
             </div>
         </nav>
+		<!-- texte hébergement -->
 		<div class="text-1">
 			<h1>Trouvez votre hébergement pour des vacances de rêves</h1>
 			<p>En plein centre ville ou en pleine nature</p>
-			
-			<div class="recherche">
-				<i class="fas fa-map-marker-alt"></i>
-				<input type="search" placeholder="Recherche" value="Marseille, France">
-				<button><span class="recherche-text-1">Rechercher</span>
-				<i class="fas fa-search"></i>
-				</button>
-			</div>
+		<!-- recherche hébergement -->
+		<div class="recherche">
+			<i class="fas fa-map-marker-alt"></i>
+			<input type="search" placeholder="Recherche" value="Marseille, France">
+			<button><span class="recherche-text-1">Rechercher</span>
+			<i class="fas fa-search"></i>
+			</button>
 		</div>
+		</div>
+		<!-- liste des filtres -->
 		<div class="list">
 		<h1>Filtres</h1>
 			<div class="filtre">
@@ -50,13 +55,17 @@
 				<span>Animaux autorisés</span>
 			</div>
 		</div>
+		<!-- information hébergement -->
 		<div class="info-recherche">
-			<i class="fas fa-info"></i>
+			<div class="i-logement"><i class="fas fa-info"></i></div>
 			<p>Plus de 500 logements sont disponibles dans cette ville</p>
 		</div>
 </header>
+<!-- corps de page -->
 <main>
+	<!-- conteneur -->
 	<div id="flex-conteneur">
+		<!-- conteneur 1 -->
 		<div id="conteneur">
 			<div class="h2-marseille"><h2>Hébergements à Marseille</h2></div>
 			<div class="conteneur-1">
@@ -135,8 +144,9 @@
 			</div>
 			<div class="h2-afficher"><a href="#"><h3>Afficher plus</h3></a></div>
 		</div>
+		<!-- conteneur 2 -->
 		<div id="conteneur-2">
-			<h2 class="h2-populaire">Les plus populaires<i class="fas fa-chart-line"></i></h2>
+			<div class="h2-populaire"><h2>Les plus populaires</h2><h2><i class="fas fa-chart-line"></h2></i></div>
 			<div class="bloc-2">
 				<div class="element-2">
 				<div class="flex-element">
@@ -189,6 +199,7 @@
 			</div>
 		</div>
 	</div>
+	<!-- conteneur 3 -->
 	<div class="conteneur-3">
 		<div class="h2-activites"><h2>Activités à Marseille</h2></div>
 			<div class="conteneur-3-1">
@@ -227,6 +238,7 @@
 			</div>
 	</div>
 </main>
+<!-- pied de page -->
 <footer>
 <div class="flex-footer">
 	<div class="footer-1">

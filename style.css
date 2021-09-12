@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: 'Raleway';
-	src: url('Raleway-Regular.ttf') format('truetype');
+	src: url('./fonts/Raleway-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
 	font-display: swap;
@@ -140,7 +140,7 @@ nav a:hover {
 .list {
 	display: flex;
 	align-items:center;
-	gap: 1rem 2rem;
+	gap: 1rem 1rem;
 	flex-wrap: wrap;
 }
 
@@ -181,7 +181,7 @@ nav a:hover {
 	margin-bottom: 25px;
 }
 
-.info-recherche .fas {
+.i-logement .fas {
 	color: #0065fc;
 	width: 2rem;
 	height: 2rem;
@@ -206,7 +206,6 @@ nav a:hover {
 }
 
 .h2-marseille {
-
 	padding: 35px 0px 5px 34px;
 }
 
@@ -536,12 +535,13 @@ footer p {
 	display: flex;
 }
 
-/* ÉCRAN TABLETTE */
+/* ÉCRAN TABLETTE : 1024px - 1174px */
 
 @media screen and (min-width: 1024px) and (max-width: 1174px) {
+
 	#flex-conteneur {
 		flex-direction: column-reverse;
-}
+	}
 
 	#conteneur {
 		margin: 0px 18px 0px 18px;
@@ -562,7 +562,6 @@ footer p {
 	}
 	
 	.h2-marseille {
-
 		padding: 15px 0px 5px 20px;
 	}
 
@@ -585,12 +584,10 @@ footer p {
 	
 }
 
+/* ÉCRAN TABLETTE : 1024px */
+
 @media screen and (max-width: 1024px) {
-	* {
-		margin: 0;
-		padding: 0;
-	}
-	
+
 	header, main {
 		margin: auto;
 		width: 100%;
@@ -603,7 +600,7 @@ footer p {
 	
 	#flex-conteneur {
 		flex-direction: column-reverse;
-}
+	}
 
 	#conteneur {
 		margin: 0px 18px 0px 18px;
@@ -618,7 +615,6 @@ footer p {
 	}
 
 	.navigation {
-		order: 1;
 		flex-basis: 100%;
 	}
 
@@ -658,10 +654,34 @@ footer p {
 
 	.text-1 p {
 		margin-top: 0.4rem;
-}
+	}
+	
+	.h2-afficher {
+		text-align: center;
+	}
+	
+	.h2-marseille {
+		margin: 30px 0px 10px 0px;
+		padding: 0;
+	}
+	
+	.h2-marseille h2 {
+		text-align: center;
+	}
+	
+	.h2-activites {
+		padding-bottom: 30px;
+	}
+	
+	.h2-activites h2 {
+		text-align: center;
+	}
+	
+	.conteneur-3 {
+		margin-bottom: 20px;
+	}
 
 	.conteneur-3-1 {
-
 		flex-direction: column;
 	}
 	
@@ -695,7 +715,7 @@ footer p {
 	
 	.flex-footer {
 		flex-direction: column;
-}
+	}
 
 	.bloc-1 {
 		width: 42%;
@@ -711,5 +731,23 @@ footer p {
 
 	.bloc-1 {
 		width: 85%;
+	}
+	
+	.conteneur-3 {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+	
+	.bloc3-1-1, .bloc3-1-2, .bloc3-1-3, .bloc3-1-4, .bloc3-1-5, .bloc3-1-6 {
+		height: auto;
+	}
+
+	.bloc3-2-1 {
+		flex-direction: column;
+	}
+	
+	.list {
+		flex-direction: column;
+		align-items: flex-start;
 	}
 }
